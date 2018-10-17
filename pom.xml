@@ -48,19 +48,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <configuration>
-                    <finalName>mybatisGeneratorCore</finalName>
-                    <excludes>
-                        <exclude>generatorConfig.xml</exclude>
-                    </excludes>
-                    <archive>
-                        <manifest>
-                            <mainClass>cn.lunatic.mybatis.generator.core.Main</mainClass>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                        </manifest>
-                    </archive>
-                </configuration>
             </plugin>
 
             <!--
